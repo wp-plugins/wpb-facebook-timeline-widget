@@ -56,9 +56,7 @@ Method 2 (FTP):
 
 2. Then go back to your Wordpress admin and go to Plugins > Installed Plugins
 
-3. If you successfully upload the plugin You will find WPB WOO Product Slider here.
-
-4. Active the plugin and you are ready to go.
+3. Active the plugin and you are ready to go.
 
  
 
