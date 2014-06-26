@@ -1,5 +1,5 @@
 <?php
-/**
+/*
 Plugin Name: WPB Facebook Timeline widget
 Plugin URI: http://demo.wpbean.com/wpb-facebook-timeline-widget
 Description: Just install this plugin & put shortcode to a text widget to enable Facebook Timeline on your Wordpress sidebar. Shortcode example: [facebook-timeline fb_id="facebook_id"]  &nbsp;&nbsp;&nbsp;&nbsp; jQuery Plugin by: <a href="https://github.com/ffabiosales/FaceBadge">ffabiosales</a>.
