@@ -1,12 +1,11 @@
-.faceBadge {
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  border-radius: 0;
-  box-shadow: 0 1px 5px 0 #ccc;
-  color: #fefefe;
-  font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
-  max-width: 100%;
-  position: relative;
+.faceBadge{
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+    color: #fefefe;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    position: relative;  
+    box-shadow: 0px 1px 5px 0px #ccc;
+    border-radius: 3px;
 }
 .wpb_ft_container img {
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -83,12 +82,9 @@
     font-family: arial;
 }
 .faceBadge-desc {
-  bottom: 0;
-  color: #777;
-  float: left;
-  line-height: 18px;
-  padding: 10px;
-  position: absolute;
+    float: left;
+    position: absolute;
+    padding: 10px;
 }
 .faceBadge-desc:before{
     content: '"';

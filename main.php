@@ -1,7 +1,7 @@
 <?php
 /**
 Plugin Name: WPB Facebook Timeline widget
-Plugin URI: http://wpbean.com/wpb-facebook-timeline-widget
+Plugin URI: http://demo.wpbean.com/wpb-facebook-timeline-widget
 Description: Just install this plugin & put shortcode to a text widget to enable Facebook Timeline on your Wordpress sidebar. Shortcode example: [facebook-timeline fb_id="facebook_id"]  &nbsp;&nbsp;&nbsp;&nbsp; jQuery Plugin by: <a href="https://github.com/ffabiosales/FaceBadge">ffabiosales</a>.
 Author: wpbean
 Version: 1.0
@@ -35,14 +35,6 @@ add_action( 'init', 'wpb_ft_style' );
 // shortcode enable for text widget
 add_filter('widget_text', 'do_shortcode');
 
-
-// Initialize the setting api class
-require_once dirname( __FILE__ ) . '/wpb_settings.php';
-
-// settings for plugin 
-require_once( 'wpb_settings.php' );
-
-
 // shortcode register
 function wpb_ft_function($atts) {
 	global $wpb_atts;
@@ -58,11 +50,11 @@ function wpb_ft_function($atts) {
 
 		jQuery(document).ready(function() {
 			jQuery(".wpb_ft").faceBadge({
-				pageId: "<?php echo cmb_get_option('wpb_fb_timeline_widget', 'fb_id'); ?>", //The ID of your paga. aftder facebook.com/
-				loaderText: "<?php echo cmb_get_option('wpb_fb_timeline_widget', 'wpb_loading_text'); ?>", //Text to show before load all data.
-				width: <?php echo cmb_get_option('wpb_fb_timeline_widget', 'min_width'); ?>,
-				coverHeight: <?php echo cmb_get_option('wpb_fb_timeline_widget', 'cov_heights'); ?>, //The height of cover div in the FaceBadge.
-				showDesc: true, //Show/Hide some text of your Page.
+				pageId: "<?php global $wpb_atts; echo $wpb_atts['fb_id'];?>", //The ID of your paga. aftder facebook.com/
+				loaderText: "Loading...", //Text to show before load all data.
+				width: 350,
+				coverHeight: 113, //The height of cover div in the FaceBadge.
+				showDesc: false, //Show/Hide some text of your Page.
 				linkToPage: true //add a link direct to your Page in the thumbnail.
 			});
 		});
