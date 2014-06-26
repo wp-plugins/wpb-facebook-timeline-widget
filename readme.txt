@@ -1,58 +1,80 @@
-=== WPB Social Master ===
+=== WPB Facebook timeline widget ===
 Contributors: wpbean
-Donate link: 
-Tags: Social, Social Media, Social Network, social share, Facebook Social
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VWQBJMQX3LCNQ
+Tags: facebook,timeline,likebox,sidebar
 Requires at least: 3.3
-Tested up to: 3.9
+Tested up to: 3.9.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will add responsive social share & follow icons. Very easy to use, just put a shortcode. 
+This plugin will add Facebook page Like box with banner and profile picture as like as Facebook on your Wordpress site sidebar. Very easy to use, just put a 
+
+shortcode. 
 
 == Description ==
 
-### WPB Social Master by http://wpbean.com
+### WPB Facebook timeline widget by http://wpbean.com
 
-This plugin will add responsive soricl share & follow icons.
+This plugin will add Facebook page Like box with banner and profile picture as like as Facebook on your Wordpress site sidebar. Very easy to use, just put a 
+shortcode. 
 
-See the <a href="http://wordpress.org/plugins/wpb-social-master/screenshots/">screenshot section</a> for visuals on social sharing features.
+Shortcode : [facebook-timeline fb_id="facebook_page_id_or_username_here"]
 
-Plugin Features
+*   [View a live demo &raquo;](http://demo.wpbean.com/wpb-woocommerce-product-slider/)
+*   [Wpbean is available for hire &raquo;](http://wpbean.com/wpbean-is-available-for-hire "Wpbean is available for hire")
 
-* Flat Social Icons.
+See the <a href="https://wordpress.org/plugins/wpb-facebook-timeline-widget/screenshots/">screenshots section</a> for visuals on WPB WPB Facebook timeline widget features.
+
+Plugin Features:
+
+* Facebook like box with page banner and profile picture.
+* Same style as you can see on Facebook.
+* East to install.
 * Shortcode System
-* Advance setting panel. 
-* Full responsive and all modern browser support. 
-* Very Lightweight.
-& many More
+* All theme supported.
+* All browser support .
+* Very light weight. 
+* Pro version coming soon with tons of premium features.
 
-Live Preview: http://demo.wpbean.com/wpb-social-master/
 
 == Installation ==
 
 * Install it as a regular WordPress plugin
 
-* After activating the plugin you have to put a shortcode where you want to see this share or follw button. Shortcode: For share `[wpb-social-share text="Share"]` & For follow `[wpb-social-follow text="Follow me"]`
+Method 1 (Upload):
 
-* The plugin supports a advance setting panel. After installing go to Settings > WPB Social Master. Here you will find three different tab called Share ,Follow & Style Settings. On shere tab just select which social icon you want to see & the follow tab put your social information which you need to see. And finally on Style settings tab you can choose your own style for this plugin. 
+1. Go to your Wordpress admin then go to Plugins > Add new > Upload
+
+2. Then select the installable file fom you download folder.
+
+3. Upload and active the plugin and you are ready to go.
+
+Method 2 (FTP):
+
+1. Upload the plugin to your server plugin directory and make sure you don't upload the zip file.
+
+2. Then go back to your Wordpress admin and go to Plugins > Installed Plugins
+
+3. Active the plugin and you are ready to go.
+
+ 
 
 
 
 == Frequently asked questions ==
 
 
-= How can I change Social settings like which one I need and which are not? =
-I have created a advance setting option for this plugin. When you go to plugin setting page you will find some check boxes and text input field for selecting you sugaring profile & putting social information.
+= How can I change plugin options like width height etc? =
+Well there is no option to change the settings of plugin these features will be only for Pro users.
 
+= Can I use more than one slider? =
+Yes you can. I have created shortcode for this plugin, just put the shortcode where you need.
 
-= Can I use more than three social button? =
-Yes you can I have created tow different shortcode for this plugin, one for share and another for follow button. Just put the shortcode where you need it.
 
 == Screenshots ==
-1. WPB Social Master in a post
-2. WPB Social Master in admin panel
-
+1. WPB Facebook timeline widget on sidebar
+3. WPB Facebook timeline widget in shortcode 
 
 == Changelog ==
 
@@ -62,3 +84,6 @@ Yes you can I have created tow different shortcode for this plugin, one for shar
 
 
 == Upgrade notice ==
+
+= 1.0 =
+* Initial release
