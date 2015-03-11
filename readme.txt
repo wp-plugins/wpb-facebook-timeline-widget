@@ -21,9 +21,6 @@ shortcode.
 
 Shortcode : [facebook-timeline fb_id="facebook_page_id_or_username_here"]
 
-*   [View a live demo &raquo;](http://demo.wpbean.com/wpb-woocommerce-product-slider/)
-*   [Wpbean is available for hire &raquo;](http://wpbean.com/wpbean-is-available-for-hire "Wpbean is available for hire")
-
 See the <a href="https://wordpress.org/plugins/wpb-facebook-timeline-widget/screenshots/">screenshots section</a> for visuals on WPB WPB Facebook timeline widget features.
 
 Plugin Features:
